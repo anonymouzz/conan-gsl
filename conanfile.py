@@ -31,4 +31,4 @@ class GslConan(ConanFile):
 
     def package(self):
         """Copy headers to include."""
-        self.copy(pattern='*', src='gsl/gsl/', dst='include/')
+        self.copy(pattern='*', src='gsl/gsl/', dst='include/gsl/')
